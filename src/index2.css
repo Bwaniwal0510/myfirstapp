@@ -1,0 +1,55 @@
+/* Style the entire calculator frame */
+.frame {
+    width: 250px; /* Adjust width as desired */
+    margin: 0 auto; /* Center the calculator horizontally */
+    border: 1px solid #95ca86; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px; /* Add some padding inside the frame */
+  }
+  
+  /* Style the calculator heading */
+  .heading {
+    text-align: center; /* Center the text */
+    font-size: 1.5rem; /* Adjust font size as desired */
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style the display area */
+  .display {
+    background-color: #973333; /* Set a background color */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ab3838; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: right; /* Align text to the right */
+  }
+  
+  /* Style the button groups */
+  .buttons-group {
+    display: flex; /* Arrange buttons horizontally */
+    justify-content: space-between; /* Distribute buttons evenly */
+    margin-bottom: 5px; /* Add some space between button groups */
+  }
+  
+  /* Style the individual buttons */
+  .button {
+    width: 40px; /* Set button width */
+    height: 40px; /* Set button height */
+    text-align: center; /* Center text within buttons */
+    font-size: 1rem; /* Adjust font size as desired */
+    margin: 2px; /* Add some margin between buttons */
+    border: 1px solid #5d2727; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    background-color: #550b7a; /* Set button background color */
+  }
+  
+  /* Style the clear button (C) */
+  .button[value="C"] {
+    background-color: #119347; /* Set a different background color for clear button */
+  }
+  
+  /* Style the equals button (=) */
+  .button[value="="] {
+    background-color: #ceb421; /* Set a different background color for equals button */
+  }
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index1.css">
+
+    <!-- Box Icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+        <ul class="navlist">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="images/tattoo.jpg" alt="Your Name">
+            <div class="bio">
+                <h2>My name is RINKI VERMA</h2>
+                <p>I am a web developer with experience in HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div class="scroll">
+    <a href="#"><i class="ri-scroll-to-bottom-fill"></i> Scroll Bottom</a>
+</div>
+    <!-- .................skill bar........... -->
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+    <div class="scroll">
+        <a href="#"><i class="ri-scroll-to-bottom-fill"></i> Scroll Bottom</a>
+    </div>
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Landing page</h3>
+            <img src="images/download.jpg" alt="Project 1">
+            <p>A landing page is an ideal web development project for beginners. It requires basic
+                knowledge of HTML and CSS. Through this project, you'll learn to create columns, divide
+                sections, arrange items, and add headers and footers. The most important aspect is
+                unleashing your creativity to design an impressive page. Pay attention to alignments,
+                padding, color palette, boxes, and other elements.</p>
+        </div>
+        <div class="project">
+            <h3>Smart waste management</h3>
+            <img src="images/IoT-based-Smart-Waste-Management.png" alt="Project 2">
+            <p>Smart bins are equipped with sensors that can detect the fill level of the bin. This information is often transmitted wirelessly over WiFI or Bluetooth, allowing waste management teams to optimize collection routes and reduce unnecessary pickups..</p>
+        </div>
+        <div class="scroll">
+            <a href="#"><i class="ri-scroll-to-bottom-fill"></i> Scroll Bottom</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <a href="images/rinki resume.pdf" download>Download My Resume</a>
+    </section>
+    <div class="scroll">
+        <a href="#"><i class="ri-scroll-to-bottom-fill"></i> Scroll Bottom</a>
+    </div>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: nk3134314.email@example.com</p>
+        <p>Phone: 9876543220</p>
+    </section>
+    <div class="scroll">
+        <a href="#"><i class="ri-scroll-to-bottom-fill"></i> Scroll Bottom</a>
+    </div>
+    <footer>
+        <p>&copy; RINKI All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.input', {
+            strings: ['Web Developer.', 'Software Engineer.', 'Full Stack Webdeveloper.',],
+            typeSpeed: 80,
+            backSpeed: 70,
+            loop: true,
+        });
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
